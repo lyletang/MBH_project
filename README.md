@@ -5,8 +5,8 @@ the Respberry project
     
 	    硬件：树莓派，led小灯，杜邦线，300R电阻，超声波测距传感器（HC-SR04）。
         软件：如果使用c语言编程，需要安装wiringPi包；
-             如果使用的Python，则是需要RPi.GPIO包，可以通过$sudo apt-get install python-RPi.GPIO安装
-            （如果使用较新的debian，就不需要准备了，都自带了）。
+		如果使用的Python，则是需要RPi.GPIO包，可以通过$sudo apt-get install python-RPi.GPIO安装
+		（如果使用较新的debian，就不需要准备了，都自带了）。
 开始：
     
 	连接HC-SR04：vcc对应raspi的2号针脚，即5v电源口；Trig对应11号；Echo对应12号；Gnd对应6号，即ground接地引脚。
